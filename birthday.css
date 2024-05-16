@@ -1,0 +1,84 @@
+body {
+    /* selector - the name that we use to call the html */
+    font-family: "Happy Monkey", system-ui;
+    text-align: center;
+    /* background: #a2d2ff; */
+    color: #ffffff;
+    /* background: linear-gradient(#a2d2ff, #efb0c9); */
+    background: linear-gradient(blue, rgb(255, 115, 0), red);
+}
+
+#face {
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid #f55c5c;
+}
+
+h1,h2,h3,h4,p {
+    /* grouping the selectors */
+    text-shadow: 0 0 2px black;
+}
+
+#head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#age, #date {
+    background: #f55c5c;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+#date {
+    margin: 0;
+}
+
+/* #head {
+    margin-bottom: 200px;
+}
+if we give margin values for bottom and top os cosecutive elements, it will collapse and takes only higher valye  */
+
+.gift-section {
+    margin-top: 50px;
+}
+
+#gift-hint {
+    margin-top: 10px;
+}
+
+.gift-img {
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    background-image: url(gift-cover.jpg);
+    background-size: cover;
+    margin: 0 auto;
+}
+
+#happy-img:hover {
+    background-image: url(happy.gif);
+}
+
+#naughty-img:hover {
+    background-image: url(hot.gif);
+}
+
+#genius-img:hover {
+    background-image: url(genius.gif);
+}
+
+#bad-img:hover {
+    background-image: url(badass.gif);
+}
+
+#cheers-img:hover {
+    background-image: url(cheers.gif);
+}
+
+.cheers {
+    height: 200px;
+    margin-bottom: 20px;
+}
